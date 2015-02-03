@@ -115,3 +115,13 @@
     padding-bottom:0
 }
 }
+
+/*Colors*/
+
+.blue label span{
+  color: blue;
+}
+
+.blue .slider .bar{
+  background: blue;
+}
