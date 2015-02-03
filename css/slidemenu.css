@@ -45,11 +45,13 @@
   .slidemenu #one:checked ~ .slider .bar {
     margin-left: 0; }
   .slidemenu #two:checked ~ .slider .bar {
-    margin-left: 25%; }
+    margin-left: 20%; }
   .slidemenu #three:checked ~ .slider .bar {
-    margin-left: 50%; }
+    margin-left: 40%; }
   .slidemenu #four:checked ~ .slider .bar {
-    margin-left: 75%; }
+    margin-left: 60%; }
+  .slidemenu #five:checked ~ .slider .bar {
+    margin-left: 80%; }
   .slidemenu #one:checked + label {
     opacity: 1; }
   .slidemenu #two:checked + label {
@@ -57,6 +59,8 @@
   .slidemenu #three:checked + label {
     opacity: 1; }
   .slidemenu #four:checked + label {
+    opacity: 1; }
+  .slidemenu #five:checked + label {
     opacity: 1; }
   @media screen and (max-width: 780px) {
     .slidemenu {
