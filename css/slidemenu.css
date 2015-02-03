@@ -58,43 +58,43 @@
     display:none
 }
 
-.slidemenu #one:checked ~ .slider .bar {
+.slidemenu .menu-one:checked ~ .slider .bar {
     margin-left:0
 }
 
-.slidemenu #two:checked ~ .slider .bar {
+.slidemenu .menu-two:checked ~ .slider .bar {
     margin-left:20%
 }
 
-.slidemenu #three:checked ~ .slider .bar {
+.slidemenu .menu-three:checked ~ .slider .bar {
     margin-left:40%
 }
 
-.slidemenu #four:checked ~ .slider .bar {
+.slidemenu .menu-four:checked ~ .slider .bar {
     margin-left:60%
 }
 
-.slidemenu #five:checked ~ .slider .bar {
+.slidemenu .menu-five:checked ~ .slider .bar {
     margin-left:80%
 }
 
-.slidemenu #one:checked + label {
+.slidemenu .menu-one:checked + label {
     opacity:1
 }
 
-.slidemenu #two:checked + label {
+.slidemenu .menu-two:checked + label {
     opacity:1
 }
 
-.slidemenu #three:checked + label {
+.slidemenu .menu-three:checked + label {
     opacity:1
 }
 
-.slidemenu #four:checked + label {
+.slidemenu .menu-four:checked + label {
     opacity:1
 }
 
-.slidemenu #five:checked + label {
+.slidemenu .menu-five:checked + label {
     opacity:1
 }
 
@@ -119,9 +119,9 @@
 /*Colors*/
 
 .blue label span{
-  color: blue;
+  color: #0090da;
 }
 
 .blue .slider .bar{
-  background: blue;
+  background: #0090da;
 }
