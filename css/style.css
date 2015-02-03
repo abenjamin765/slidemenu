@@ -18,5 +18,5 @@ body{
 .grey{
   background: #f4f4f4;
   border-top:1px dotted #ccc;
-  padding: 50px;
+  padding: 50px 0;
 }
